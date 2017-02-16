@@ -1494,6 +1494,47 @@ Manufacturer: Hirose&lt;br&gt;
 <rectangle x1="2.1" y1="-0.15" x2="3.35" y2="0.15" layer="31"/>
 <rectangle x1="2.1" y1="-0.8" x2="3.35" y2="-0.5" layer="31"/>
 </package>
+<package name="MICRO-SD-SOCKET">
+<description>&lt;h3&gt;microSD Socket SMD&lt;/h3&gt;
+Puhs-Push type.
+&lt;br&gt; tDocu shows location of uSD card in different positions.
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:12&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=”http://www.4uconnector.com/online/object/4udrawing/15882.pdf”&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;MICRO-SD_CARD_SOCKET&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-14" y1="0" x2="-14" y2="13.2" width="0.2032" layer="21"/>
+<wire x1="0" y1="12.1" x2="0" y2="0" width="0.2032" layer="21"/>
+<wire x1="-11.7" y1="15.3" x2="-12.5" y2="15.3" width="0.2032" layer="21"/>
+<wire x1="-11" y1="16" x2="0" y2="16" width="0.2032" layer="51"/>
+<wire x1="-10" y1="13.6" x2="-1.6" y2="13.6" width="0.2032" layer="21"/>
+<wire x1="-14" y1="0" x2="-9.1" y2="0" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="0" x2="-6.4" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="0" x2="-0.7" y2="0" width="0.2032" layer="21"/>
+<wire x1="0" y1="17.6" x2="-11" y2="17.6" width="0.2032" layer="51"/>
+<wire x1="0" y1="20.7" x2="-11" y2="20.7" width="0.2032" layer="51"/>
+<wire x1="-11.7" y1="15.3" x2="-11" y2="14.6" width="0.2032" layer="21" curve="-98.797411"/>
+<wire x1="-11" y1="14.6" x2="-10" y2="13.6" width="0.2032" layer="21" curve="87.205638"/>
+<smd name="CD2" x="-7.75" y="0.4" dx="1.8" dy="1.4" layer="1"/>
+<smd name="CD1" x="-2.05" y="0.4" dx="1.8" dy="1.4" layer="1"/>
+<smd name="GND3" x="-0.45" y="13.55" dx="1.4" dy="1.9" layer="1"/>
+<smd name="GND1" x="-13.6" y="14.55" dx="1.4" dy="1.9" layer="1"/>
+<smd name="RSV1" x="-8.94" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="CS" x="-7.84" y="10.3" dx="0.8" dy="1.5" layer="1"/>
+<smd name="DI" x="-6.74" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="VCC" x="-5.64" y="10.9" dx="0.8" dy="1.5" layer="1"/>
+<smd name="SCLK" x="-4.54" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="GND" x="-3.44" y="10.9" dx="0.8" dy="1.5" layer="1"/>
+<smd name="DO" x="-2.34" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<smd name="RSV2" x="-1.24" y="10.7" dx="0.8" dy="1.5" layer="1"/>
+<text x="-8.89" y="6.35" size="0.6096" layer="25" font="vector" ratio="20">&gt;Name</text>
+<text x="-8.89" y="5.08" size="0.6096" layer="27" font="vector" ratio="20">&gt;Value</text>
+<text x="0.635" y="15.875" size="1.27" layer="51" font="vector" ratio="10" align="center-left">Pressed</text>
+<text x="0.635" y="17.78" size="1.27" layer="51" font="vector" ratio="10" align="center-left">Locked</text>
+<text x="0.635" y="20.955" size="1.27" layer="51" font="vector" ratio="10" align="center-left">Unlocked</text>
+</package>
 </packages>
 <symbols>
 <symbol name="AVR_SPI_PROGRAMMER_6">
@@ -1548,6 +1589,31 @@ Manufacturer: Hirose&lt;br&gt;
 <text x="-2.54" y="7.874" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <text x="-2.54" y="-7.874" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
 <wire x1="5.08" y1="7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="MICRO-SD_CARD">
+<description>Newer version of USDCARD symbol that moves pins for easier routing and uses more accurate pin names.&lt;br /&gt;
+Renamed DAT2 from NC to RSV to remove the implication that you should leave it not connected.</description>
+<wire x1="-12.7" y1="10.16" x2="15.24" y2="10.16" width="0.254" layer="94"/>
+<wire x1="15.24" y1="10.16" x2="15.24" y2="-12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
+<text x="-12.7" y="10.668" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.874" y="10.668" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="!CS" x="-15.24" y="2.54" visible="pin" length="short"/>
+<pin name="DI" x="-15.24" y="0" visible="pin" length="short"/>
+<pin name="GND" x="2.54" y="-15.24" visible="pin" length="short" rot="R90"/>
+<pin name="VCC" x="-15.24" y="5.08" visible="pin" length="short"/>
+<pin name="SCK" x="-15.24" y="-2.54" visible="pin" length="short"/>
+<pin name="RSV@2" x="17.78" y="0" visible="pin" length="short" rot="R180"/>
+<pin name="DO" x="-15.24" y="-5.08" visible="pin" length="short"/>
+<pin name="RSV@1" x="17.78" y="5.08" visible="pin" length="short" rot="R180"/>
+<pin name="SHIELD@3" x="0" y="-15.24" visible="pin" length="short" rot="R90"/>
+<pin name="SHIELD@1" x="-2.54" y="-15.24" visible="pin" length="short" rot="R90"/>
+<pin name="CD1" x="17.78" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="CD2" x="17.78" y="-10.16" visible="pin" length="short" rot="R180"/>
+<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="13.462" y1="-10.16" x2="13.462" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="13.462" y1="-5.08" x2="14.732" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="13.462" y1="-10.16" x2="14.732" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1963,6 +2029,44 @@ Manufacturer: Hirose&lt;br&gt;
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="CONN-11752"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MICRO-SD_CARD_SOCKET" prefix="J">
+<description>&lt;h3&gt;microSD Socket for Transflash&lt;/h3&gt;
+&lt;p&gt;Push-push type µSD socket.  tDoc lines correctly indicate media card edge positions when inserting (unlocked, locked, depressed).
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;NOTE:&lt;/b&gt; CD1 and CD2 are connected internally, and the default detect state of the socket is detect pin to ground.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13660”&gt;WAV Trigger&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13262”&gt;CAN-Bus Shield&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13743”&gt;SparkFun Level Shifing microSD Breakout&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="MICRO-SD_CARD" x="-5.08" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="MICRO-SD-SOCKET">
+<connects>
+<connect gate="1" pin="!CS" pad="CS"/>
+<connect gate="1" pin="CD1" pad="CD1"/>
+<connect gate="1" pin="CD2" pad="CD2"/>
+<connect gate="1" pin="DI" pad="DI"/>
+<connect gate="1" pin="DO" pad="DO"/>
+<connect gate="1" pin="GND" pad="GND"/>
+<connect gate="1" pin="RSV@1" pad="RSV1"/>
+<connect gate="1" pin="RSV@2" pad="RSV2"/>
+<connect gate="1" pin="SCK" pad="SCLK"/>
+<connect gate="1" pin="SHIELD@1" pad="GND1"/>
+<connect gate="1" pin="SHIELD@3" pad="GND3"/>
+<connect gate="1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="CONN-07820"/>
+<attribute name="SF_ID" value="PRT-00127" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -3529,6 +3633,10 @@ Diode with low voltage drop</description>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+2" library="supply1" deviceset="VCC" device="" value="1.8V"/>
+<part name="J4" library="SparkFun-Connectors" deviceset="MICRO-SD_CARD_SOCKET" device=""/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3575,6 +3683,10 @@ Diode with low voltage drop</description>
 <instance part="GND10" gate="1" x="48.26" y="127"/>
 <instance part="+3V3" gate="G$1" x="12.7" y="152.4"/>
 <instance part="P+2" gate="VCC" x="78.74" y="149.86"/>
+<instance part="J4" gate="1" x="294.64" y="243.84"/>
+<instance part="+3V4" gate="G$1" x="276.86" y="261.62"/>
+<instance part="GND11" gate="1" x="294.64" y="220.98"/>
+<instance part="GND12" gate="1" x="317.5" y="220.98"/>
 </instances>
 <busses>
 </busses>
@@ -3634,6 +3746,12 @@ Diode with low voltage drop</description>
 <wire x1="20.32" y1="139.7" x2="12.7" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="139.7" x2="12.7" y2="144.78" width="0.1524" layer="91"/>
 <junction x="12.7" y="144.78"/>
+</segment>
+<segment>
+<pinref part="J4" gate="1" pin="VCC"/>
+<wire x1="279.4" y1="248.92" x2="276.86" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="248.92" x2="276.86" y2="259.08" width="0.1524" layer="91"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3732,12 +3850,40 @@ Diode with low voltage drop</description>
 <wire x1="20.32" y1="134.62" x2="12.7" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="134.62" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="J4" gate="1" pin="SHIELD@3"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="294.64" y1="228.6" x2="294.64" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="J4" gate="1" pin="GND"/>
+<wire x1="294.64" y1="226.06" x2="294.64" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="228.6" x2="297.18" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="297.18" y1="226.06" x2="294.64" y2="226.06" width="0.1524" layer="91"/>
+<junction x="294.64" y="226.06"/>
+<pinref part="J4" gate="1" pin="SHIELD@1"/>
+<wire x1="292.1" y1="228.6" x2="292.1" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="226.06" x2="294.64" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="J4" gate="1" pin="CD1"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="312.42" y1="238.76" x2="317.5" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="238.76" x2="317.5" y2="233.68" width="0.1524" layer="91"/>
+<pinref part="J4" gate="1" pin="CD2"/>
+<wire x1="317.5" y1="233.68" x2="317.5" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="312.42" y1="233.68" x2="317.5" y2="233.68" width="0.1524" layer="91"/>
+<junction x="317.5" y="233.68"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="4"/>
 <wire x1="76.2" y1="170.18" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
 <label x="88.9" y="170.18" size="1.778" layer="95" rot="MR0"/>
+</segment>
+<segment>
+<pinref part="J4" gate="1" pin="DI"/>
+<wire x1="279.4" y1="243.84" x2="266.7" y2="243.84" width="0.1524" layer="91"/>
+<label x="266.7" y="243.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -3753,12 +3899,22 @@ Diode with low voltage drop</description>
 <wire x1="58.42" y1="170.18" x2="45.72" y2="170.18" width="0.1524" layer="91"/>
 <label x="45.72" y="170.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J4" gate="1" pin="SCK"/>
+<wire x1="279.4" y1="241.3" x2="266.7" y2="241.3" width="0.1524" layer="91"/>
+<label x="266.7" y="241.3" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="MISO" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
 <label x="45.72" y="172.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J4" gate="1" pin="DO"/>
+<wire x1="279.4" y1="238.76" x2="266.7" y2="238.76" width="0.1524" layer="91"/>
+<label x="266.7" y="238.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VBATT" class="0">
@@ -3872,6 +4028,13 @@ Diode with low voltage drop</description>
 <pinref part="P+2" gate="VCC" pin="VCC"/>
 <wire x1="78.74" y1="144.78" x2="78.74" y2="147.32" width="0.1524" layer="91"/>
 <junction x="78.74" y="144.78"/>
+</segment>
+</net>
+<net name="SD-CS" class="0">
+<segment>
+<pinref part="J4" gate="1" pin="!CS"/>
+<wire x1="279.4" y1="246.38" x2="266.7" y2="246.38" width="0.1524" layer="91"/>
+<label x="266.7" y="246.38" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
