@@ -343,6 +343,53 @@ Holes are offset from center 0.005", to hold pins in place while soldering.
 <text x="-1.397" y="1.778" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.651" y="0.635" size="0.6096" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 </package>
+<package name="USB-MICROB">
+<description>&lt;h3&gt;USB Type microUSB Connector-No Bossed Pins&lt;/h3&gt;
+&lt;p&gt;Specifications:
+&lt;ul&gt;&lt;li&gt;Pin count:5 pins, 4 shield connections&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;
+&lt;p&gt;Example device(s):
+&lt;ul&gt;&lt;li&gt;USB_Micro-B&lt;/li&gt;
+&lt;/ul&gt;&lt;/p&gt;</description>
+<wire x1="-3.4" y1="-2.15" x2="-3" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.15" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-2.15" x2="-3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-1.45" x2="-3.4" y2="2.85" width="0.127" layer="51"/>
+<wire x1="3.4" y1="2.85" x2="2.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="3.4" y1="2.85" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="3.4" y1="-1.45" x2="3.4" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="-1.45" x2="3.4" y2="-1.45" width="0.127" layer="51"/>
+<wire x1="-1.25" y1="-3.4" x2="-2.85" y2="-3.4" width="0.2032" layer="21"/>
+<wire x1="-2.85" y1="-3.4" x2="-2.85" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-2.85" y1="3.4" x2="-2.85" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="-1.25" y1="3.4" x2="-2.85" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="1.45" y1="-3.4" x2="1.45" y2="3.4" width="0.2032" layer="21"/>
+<wire x1="-2.2" y1="1.45" x2="2.2" y2="1.45" width="0.127" layer="51"/>
+<wire x1="2.2" y1="1.45" x2="2.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-2.2" y1="1.45" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-3.4" y1="2.85" x2="-2.2" y2="2.85" width="0.127" layer="51"/>
+<wire x1="-2.85" y1="-2.2" x2="-1.45" y2="-2.2" width="0.2032" layer="21"/>
+<wire x1="-1.45" y1="-2.2" x2="-1.45" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="-1.45" y1="2.2" x2="-2.85" y2="2.2" width="0.2032" layer="21"/>
+<wire x1="-3.4" y1="-2.15" x2="-4" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="3.4" y1="-2.15" x2="4" y2="-2.75" width="0.2032" layer="51"/>
+<wire x1="-3" y1="-2.15" x2="-3" y2="-2.55" width="0.127" layer="51"/>
+<wire x1="-2.8" y1="-2.8" x2="2.75" y2="-2.8" width="0.127" layer="51"/>
+<wire x1="3" y1="-2.6" x2="3" y2="-2.15" width="0.127" layer="51"/>
+<wire x1="-3" y1="-2.55" x2="-2.8" y2="-2.8" width="0.127" layer="51" curve="84.547378"/>
+<wire x1="2.75" y1="-2.8" x2="3" y2="-2.6" width="0.127" layer="51" curve="84.547378"/>
+<smd name="VBUS" x="-2.65" y="-1.3" dx="1.4" dy="0.35" layer="1" rot="R180"/>
+<smd name="GND" x="-2.65" y="1.3" dx="1.4" dy="0.35" layer="1" rot="R180"/>
+<smd name="D-" x="-2.65" y="-0.65" dx="1.4" dy="0.35" layer="1" rot="R180"/>
+<smd name="D+" x="-2.65" y="0" dx="1.4" dy="0.35" layer="1" rot="R180"/>
+<smd name="ID" x="-2.65" y="0.65" dx="1.4" dy="0.35" layer="1" rot="R180"/>
+<smd name="MT1" x="0" y="-4" dx="1.8" dy="1.9" layer="1" rot="R90"/>
+<smd name="MT2" x="0" y="4" dx="1.8" dy="1.9" layer="1" rot="R90"/>
+<text x="-2.54" y="5.08" size="0.6096" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.905" y="-5.08" size="0.6096" layer="27" font="vector" ratio="20" align="top-left">&gt;VALUE</text>
+<smd name="P$1" x="0" y="-1.27" dx="1.9" dy="1.9" layer="1" rot="R90"/>
+<smd name="P$2" x="0" y="1.27" dx="1.9" dy="1.9" layer="1" rot="R90"/>
+</package>
 </packages>
 </library>
 <library name="SparkFun-Switches">
@@ -837,6 +884,31 @@ design rules under a new name.</description>
 <element name="D2" library="SparkFun-DiscreteSemi" package="SOD-523" value="120mA/40V/370mV" x="-21.59" y="-40.64">
 <attribute name="PROD_ID" value="DIO-11018" x="-21.59" y="-40.64" size="1.778" layer="27" display="off"/>
 </element>
+<element name="J3" library="SparkFun-Connectors" package="USB-MICROB" value="" x="-27.94" y="-35.56">
+<attribute name="SF_ID" value="PRT-08533" x="-27.94" y="-35.56" size="1.778" layer="27" display="off"/>
+<attribute name="PROD_ID" value="CONN-09505" x="-27.94" y="-35.56" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U3" library="SparkFun-IC-Power" package="SOT23-5" value="MCP73831" x="-34.29" y="-39.37">
+<attribute name="PROD_ID" value="IC-09995" x="-34.29" y="-39.37" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="SparkFun-LED" package="LED-0603" value="Yellow" x="-33.02" y="-48.26">
+<attribute name="PROD_ID" value="DIO-09003" x="-33.02" y="-48.26" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="SparkFun-Resistors" package="0603" value="330k" x="-33.02" y="-52.07">
+<attribute name="PROD_ID" value="RES-08968" x="-33.02" y="-52.07" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C5" library="SparkFun-Capacitors" package="0603" value="4.7uF" x="-33.02" y="-55.88">
+<attribute name="PROD_ID" value="CAP-08280" x="-33.02" y="-55.88" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R3" library="SparkFun-Resistors" package="0603" value="2.0k" x="-33.02" y="-59.69">
+<attribute name="PROD_ID" value="RES-08296" x="-33.02" y="-59.69" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R4" library="SparkFun-Resistors" package="0603" value="DNP" x="-33.02" y="-63.5">
+<attribute name="PROD_ID" value="RES-08296" x="-33.02" y="-63.5" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C6" library="SparkFun-Capacitors" package="0603" value="4.7uF" x="-33.02" y="-67.31">
+<attribute name="PROD_ID" value="CAP-08280" x="-33.02" y="-67.31" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="+3V3">
@@ -872,11 +944,23 @@ design rules under a new name.</description>
 <contactref element="C3" pad="-"/>
 <contactref element="C4" pad="2"/>
 <contactref element="D1" pad="C"/>
-<wire x1="-19.47" y1="-30.48" x2="-19.443" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-21.72" y1="-26.67" x2="-19.47" y2="-30.48" width="0" layer="19" extent="1-1"/>
+<contactref element="J3" pad="GND"/>
+<contactref element="C5" pad="2"/>
+<contactref element="U3" pad="2"/>
+<contactref element="R3" pad="1"/>
+<contactref element="R4" pad="1"/>
+<contactref element="C6" pad="2"/>
+<wire x1="-33.87" y1="-59.69" x2="-33.87" y2="-63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.17" y1="-67.31" x2="-33.87" y2="-63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-32.17" y1="-55.88" x2="-33.87" y2="-59.69" width="0" layer="19" extent="1-1"/>
+<wire x1="-34.29" y1="-40.6701" x2="-32.17" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.59" y1="-34.26" x2="-34.29" y2="-40.6701" width="0" layer="19" extent="1-1"/>
+<wire x1="-21.72" y1="-26.67" x2="-30.59" y2="-34.26" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.47" y1="-30.48" x2="-21.72" y2="-26.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-19.47" y1="-22.86" x2="-21.72" y2="-26.67" width="0" layer="19" extent="1-1"/>
 <wire x1="-21.59" y1="-19.0801" x2="-19.47" y2="-22.86" width="0" layer="19" extent="1-1"/>
 <wire x1="-18.16" y1="-17.78" x2="-21.59" y2="-19.0801" width="0" layer="19" extent="1-1"/>
+<wire x1="-19.443" y1="-38.1" x2="-19.47" y2="-30.48" width="0" layer="19" extent="1-1"/>
 <wire x1="-14.24" y1="-4.97" x2="-18.16" y2="-17.78" width="0" layer="19" extent="1-1"/>
 <wire x1="-2.54" y1="-2.413" x2="-14.24" y2="-4.97" width="0" layer="19" extent="1-1"/>
 <wire x1="-0.7874" y1="8.02" x2="-2.54" y2="-2.413" width="0" layer="19" extent="1-1"/>
@@ -898,6 +982,10 @@ design rules under a new name.</description>
 <signal name="VBATT">
 <contactref element="J2" pad="1"/>
 <contactref element="S1" pad="2"/>
+<contactref element="U3" pad="3"/>
+<contactref element="C6" pad="1"/>
+<wire x1="-33.34" y1="-40.6701" x2="-33.87" y2="-67.31" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.72" y1="-13.18" x2="-33.34" y2="-40.6701" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.24" y1="-4.97" x2="-14.72" y2="-13.18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="V+">
@@ -920,6 +1008,32 @@ design rules under a new name.</description>
 <contactref element="R1" pad="2"/>
 <contactref element="D1" pad="A"/>
 <wire x1="-19.47" y1="-34.29" x2="-21.197" y2="-38.1" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$1">
+<contactref element="R2" pad="2"/>
+<contactref element="D4" pad="A"/>
+<wire x1="-33.897" y1="-48.26" x2="-32.17" y2="-52.07" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VIN">
+<contactref element="J3" pad="VBUS"/>
+<contactref element="C5" pad="1"/>
+<contactref element="R2" pad="1"/>
+<contactref element="U3" pad="4"/>
+<wire x1="-33.87" y1="-52.07" x2="-33.87" y2="-55.88" width="0" layer="19" extent="1-1"/>
+<wire x1="-33.34" y1="-38.0699" x2="-33.87" y2="-52.07" width="0" layer="19" extent="1-1"/>
+<wire x1="-30.59" y1="-36.86" x2="-33.34" y2="-38.0699" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$5">
+<contactref element="D4" pad="C"/>
+<contactref element="U3" pad="1"/>
+<wire x1="-35.24" y1="-40.6701" x2="-32.143" y2="-48.26" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="U3" pad="5"/>
+<contactref element="R3" pad="2"/>
+<contactref element="R4" pad="2"/>
+<wire x1="-32.17" y1="-59.69" x2="-32.17" y2="-63.5" width="0" layer="19" extent="1-1"/>
+<wire x1="-35.24" y1="-38.0699" x2="-32.17" y2="-59.69" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
