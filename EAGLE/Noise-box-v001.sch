@@ -3151,6 +3151,213 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.524" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.524" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
+<package name="ENCODER_LED_3">
+<description>&lt;h3&gt;Illuminated Rotary Encoder w/ RGB LED and select switch&lt;/h3&gt;
+&lt;p&gt;Encoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.&lt;/p&gt;
+&lt;p&gt;This encoder includes an RGB LED and a push-down select switch.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/EC12PLRGBSDVBF-D-25K-24-24C-6108-6H.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-3.9" y1="6.7" x2="3.9" y2="6.7" width="0.2032" layer="51"/>
+<wire x1="-6.2" y1="1.7" x2="-6.2" y2="5.8938" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="5.8938" x2="-5.3938" y2="6.7" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-5.3938" y1="6.7" x2="-3.9" y2="6.7" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-6.7" x2="-3.4" y2="-6.7" width="0.2032" layer="51"/>
+<wire x1="-6.2" y1="-1.7" x2="-6.2" y2="1.7" width="0.2032" layer="51"/>
+<wire x1="6.2" y1="1.7" x2="6.2" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="6.2" y1="5.8938" x2="5.3938" y2="6.7" width="0.2032" layer="21" curve="90"/>
+<wire x1="5.3938" y1="6.7" x2="3.9" y2="6.7" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="1.7" x2="6.2" y2="5.8938" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="-1.7" x2="6.2" y2="-5.8938" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="-5.8938" x2="5.3938" y2="-6.7" width="0.2032" layer="21" curve="-90"/>
+<wire x1="5.3938" y1="-6.7" x2="3.4" y2="-6.7" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="-5.8938" x2="-5.3938" y2="-6.7" width="0.2032" layer="21" curve="90"/>
+<wire x1="-5.3938" y1="-6.7" x2="-3.4" y2="-6.7" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="-1.7" x2="-6.2" y2="-5.8938" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.2032" layer="21"/>
+<pad name="A" x="-2.5" y="-7.5" drill="1.1" diameter="1.8"/>
+<pad name="C" x="0" y="-7.5" drill="1.1" diameter="1.8"/>
+<pad name="B" x="2.5" y="-7.5" drill="1.1" diameter="1.8"/>
+<pad name="3" x="0" y="7" drill="1.1" diameter="1.778"/>
+<pad name="2" x="-2" y="7" drill="1.1" diameter="1.778"/>
+<pad name="M1" x="-5.55" y="0" drill="2.1"/>
+<pad name="M2" x="5.55" y="0" drill="2.1"/>
+<pad name="4" x="2" y="7" drill="1.1" diameter="1.778"/>
+<pad name="1" x="-4" y="7" drill="1.1" diameter="1.778"/>
+<pad name="5" x="4" y="7" drill="1.1" diameter="1.778"/>
+<text x="-6.35" y="3.81" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="6.35" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
+<package name="ENCODER_LED_3_KIT">
+<description>&lt;h3&gt;Illuminated Rotary Encoder w/ RGB LED and select switch&lt;/h3&gt;
+&lt;p&gt;Encoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.&lt;/p&gt;
+&lt;p&gt;This encoder includes an RGB LED and a push-down select switch.&lt;/p&gt;
+&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; This is the KIT version of this package. This package has a smaller diameter top stop mask, which doesn't cover the diameter of the pad. This means only the bottom side of the pads' copper will be exposed. You'll only be able to solder to the bottom side.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://cdn.sparkfun.com/datasheets/Components/Switches/EC12PLRGBSDVBF-D-25K-24-24C-6108-6H.pdf"&gt;Dimensional Drawing&lt;/a&gt;&lt;/p&gt;</description>
+<wire x1="-3.9" y1="6.7" x2="3.9" y2="6.7" width="0.2032" layer="51"/>
+<wire x1="-6.2" y1="1.7" x2="-6.2" y2="5.8938" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="5.8938" x2="-5.3938" y2="6.7" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-5.3938" y1="6.7" x2="-3.9" y2="6.7" width="0.2032" layer="21"/>
+<wire x1="3.4" y1="-6.7" x2="-3.4" y2="-6.7" width="0.2032" layer="51"/>
+<wire x1="-6.2" y1="-1.7" x2="-6.2" y2="1.7" width="0.2032" layer="51"/>
+<wire x1="6.2" y1="1.7" x2="6.2" y2="-1.7" width="0.2032" layer="51"/>
+<wire x1="6.2" y1="5.8938" x2="5.3938" y2="6.7" width="0.2032" layer="21" curve="90"/>
+<wire x1="5.3938" y1="6.7" x2="3.9" y2="6.7" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="1.7" x2="6.2" y2="5.8938" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="-1.7" x2="6.2" y2="-5.8938" width="0.2032" layer="21"/>
+<wire x1="6.2" y1="-5.8938" x2="5.3938" y2="-6.7" width="0.2032" layer="21" curve="-90"/>
+<wire x1="5.3938" y1="-6.7" x2="3.4" y2="-6.7" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="-5.8938" x2="-5.3938" y2="-6.7" width="0.2032" layer="21" curve="90"/>
+<wire x1="-5.3938" y1="-6.7" x2="-3.4" y2="-6.7" width="0.2032" layer="21"/>
+<wire x1="-6.2" y1="-1.7" x2="-6.2" y2="-5.8938" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.2032" layer="21"/>
+<pad name="A" x="-2.5" y="-7.5" drill="1.1" diameter="1.8" stop="no"/>
+<pad name="C" x="0" y="-7.5" drill="1.1" diameter="1.8" stop="no"/>
+<pad name="B" x="2.5" y="-7.5" drill="1.1" diameter="1.8" stop="no"/>
+<pad name="3" x="0" y="7" drill="1.1" diameter="1.778" stop="no"/>
+<pad name="2" x="-2" y="7" drill="1.1" diameter="1.778" stop="no"/>
+<pad name="M1" x="-5.55" y="0" drill="2.1" stop="no"/>
+<pad name="M2" x="5.55" y="0" drill="2.1" stop="no"/>
+<pad name="4" x="2" y="7" drill="1.1" diameter="1.778" stop="no"/>
+<pad name="1" x="-4" y="7" drill="1.1" diameter="1.778" stop="no"/>
+<pad name="5" x="4" y="7" drill="1.1" diameter="1.778" stop="no"/>
+<polygon width="0.127" layer="30">
+<vertex x="-1.55" y="-7.5" curve="90"/>
+<vertex x="-2.5" y="-6.55" curve="90"/>
+<vertex x="-3.45" y="-7.5" curve="90"/>
+<vertex x="-2.5" y="-8.45" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="0.95" y="-7.5" curve="90"/>
+<vertex x="0" y="-6.55" curve="90"/>
+<vertex x="-0.95" y="-7.5" curve="90"/>
+<vertex x="0" y="-8.45" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="3.45" y="-7.5" curve="90"/>
+<vertex x="2.5" y="-6.55" curve="90"/>
+<vertex x="1.55" y="-7.5" curve="90"/>
+<vertex x="2.5" y="-8.45" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-3.05" y="7" curve="90"/>
+<vertex x="-4" y="7.95" curve="90"/>
+<vertex x="-4.95" y="7" curve="90"/>
+<vertex x="-4" y="6.05" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-1.05" y="7" curve="90"/>
+<vertex x="-2" y="7.95" curve="90"/>
+<vertex x="-2.95" y="7" curve="90"/>
+<vertex x="-2" y="6.05" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="0.95" y="7" curve="90"/>
+<vertex x="0" y="7.95" curve="90"/>
+<vertex x="-0.95" y="7" curve="90"/>
+<vertex x="0" y="6.05" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="2.95" y="7" curve="90"/>
+<vertex x="2" y="7.95" curve="90"/>
+<vertex x="1.05" y="7" curve="90"/>
+<vertex x="2" y="6.05" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="4" y="0" curve="-90"/>
+<vertex x="5.55" y="1.55" curve="-90"/>
+<vertex x="7.1" y="0" curve="-90"/>
+<vertex x="5.55" y="-1.55" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="-7.1" y="0" curve="-90"/>
+<vertex x="-5.55" y="1.55" curve="-90"/>
+<vertex x="-4" y="0" curve="-90"/>
+<vertex x="-5.55" y="-1.55" curve="-90"/>
+</polygon>
+<polygon width="0.127" layer="30">
+<vertex x="4.95" y="7" curve="90"/>
+<vertex x="4" y="7.95" curve="90"/>
+<vertex x="3.05" y="7" curve="90"/>
+<vertex x="4" y="6.05" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-5.55" y="1" curve="90"/>
+<vertex x="-6.55" y="0" curve="90"/>
+<vertex x="-5.55" y="-1" curve="90"/>
+<vertex x="-4.55" y="0" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="5.55" y="1" curve="90"/>
+<vertex x="4.55" y="0" curve="90"/>
+<vertex x="5.55" y="-1" curve="90"/>
+<vertex x="6.55" y="0" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-4.016" y="7.55" curve="90"/>
+<vertex x="-4.566" y="7"/>
+<vertex x="-4.566" y="6.95" curve="90"/>
+<vertex x="-4.066" y="6.45"/>
+<vertex x="-4.016" y="6.45" curve="90"/>
+<vertex x="-3.466" y="7" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-2.016" y="7.55" curve="90"/>
+<vertex x="-2.566" y="7"/>
+<vertex x="-2.566" y="6.95" curve="90"/>
+<vertex x="-2.066" y="6.45"/>
+<vertex x="-2.016" y="6.45" curve="90"/>
+<vertex x="-1.466" y="7" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-0.016" y="7.55" curve="90"/>
+<vertex x="-0.566" y="7"/>
+<vertex x="-0.566" y="6.95" curve="90"/>
+<vertex x="-0.066" y="6.45"/>
+<vertex x="-0.016" y="6.45" curve="90"/>
+<vertex x="0.534" y="7" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="1.984" y="7.55" curve="90"/>
+<vertex x="1.434" y="7"/>
+<vertex x="1.434" y="6.95" curve="90"/>
+<vertex x="1.934" y="6.45"/>
+<vertex x="1.984" y="6.45" curve="90"/>
+<vertex x="2.534" y="7" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="-2.5" y="-6.95" curve="90"/>
+<vertex x="-3.05" y="-7.5"/>
+<vertex x="-3.05" y="-7.55" curve="90"/>
+<vertex x="-2.55" y="-8.05"/>
+<vertex x="-2.5" y="-8.05" curve="90"/>
+<vertex x="-1.95" y="-7.5" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="0" y="-6.95" curve="90"/>
+<vertex x="-0.55" y="-7.5"/>
+<vertex x="-0.55" y="-7.55" curve="90"/>
+<vertex x="-0.05" y="-8.05"/>
+<vertex x="0" y="-8.05" curve="90"/>
+<vertex x="0.55" y="-7.5" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="2.55" y="-6.95" curve="90"/>
+<vertex x="2" y="-7.5"/>
+<vertex x="2" y="-7.55" curve="90"/>
+<vertex x="2.5" y="-8.05"/>
+<vertex x="2.55" y="-8.05" curve="90"/>
+<vertex x="3.1" y="-7.5" curve="90"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="4.016" y="7.55" curve="90"/>
+<vertex x="3.466" y="7"/>
+<vertex x="3.466" y="6.95" curve="90"/>
+<vertex x="3.966" y="6.45"/>
+<vertex x="4.016" y="6.45" curve="90"/>
+<vertex x="4.566" y="7" curve="90"/>
+</polygon>
+<text x="-6.35" y="3.81" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
+<text x="6.35" y="3.81" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center">&gt;Value</text>
+</package>
 </packages>
 <symbols>
 <symbol name="TOGGLE">
@@ -3179,6 +3386,80 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="-0.508" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="2"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+</symbol>
+<symbol name="ENCODER_LED_3_CA">
+<description>&lt;h3&gt;Illuminated Rotary Encoder w/ RGB LED and select switch&lt;/h3&gt;
+&lt;p&gt;Encoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.&lt;/p&gt;</description>
+<wire x1="3.81" y1="3.81" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="1.27" x2="5.08" y2="1.27" width="0.254" layer="94"/>
+<wire x1="5.08" y1="1.27" x2="6.35" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="3.81" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="6.35" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="0" x2="-12.7" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-5.08" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="8.89" y1="3.81" x2="10.16" y2="1.27" width="0.254" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="11.43" y2="3.81" width="0.254" layer="94"/>
+<wire x1="8.89" y1="1.27" x2="10.16" y2="1.27" width="0.254" layer="94"/>
+<wire x1="10.16" y1="1.27" x2="11.43" y2="1.27" width="0.254" layer="94"/>
+<wire x1="8.89" y1="3.81" x2="10.16" y2="3.81" width="0.254" layer="94"/>
+<wire x1="10.16" y1="3.81" x2="11.43" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="12.7" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-6.35" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="12.7" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="0" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="3.81" x2="0" y2="3.81" width="0.254" layer="94"/>
+<wire x1="0" y1="3.81" x2="1.27" y2="3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="12.7" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="12.7" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="10.16" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="12.7" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-12.7" y2="0" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-12.7" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="0" x2="-10.16" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="-3.81" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="3.81" x2="-9.144" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-3.81" x2="-9.144" y2="-1.524" width="0.254" layer="94"/>
+<circle x="-10.16" y="-3.81" radius="0.254" width="0.254" layer="94"/>
+<circle x="-10.16" y="-1.27" radius="0.254" width="0.254" layer="94"/>
+<circle x="-10.16" y="1.27" radius="0.254" width="0.254" layer="94"/>
+<circle x="-10.16" y="3.81" radius="0.254" width="0.254" layer="94"/>
+<circle x="-5.08" y="2.54" radius="0.254" width="0.254" layer="94"/>
+<circle x="-5.08" y="-2.54" radius="0.254" width="0.254" layer="94"/>
+<text x="-12.7" y="10.414" size="1.778" layer="95" font="vector">&gt;NAME</text>
+<text x="-12.7" y="-10.541" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="7.62" y="0" size="1.778" layer="94" rot="MR180">R</text>
+<text x="2.54" y="0" size="1.778" layer="94" rot="MR180">G</text>
+<text x="-2.54" y="0" size="1.778" layer="94" rot="MR180">B</text>
+<pin name="+" x="15.24" y="7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="-G" x="15.24" y="-2.54" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-15.24" y="5.08" visible="pad" length="short"/>
+<pin name="C" x="-15.24" y="0" visible="pad" length="short"/>
+<pin name="B" x="-15.24" y="-5.08" visible="pad" length="short"/>
+<pin name="-R" x="15.24" y="0" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="SW" x="15.24" y="-7.62" visible="pad" length="short" direction="pas" rot="R180"/>
+<pin name="-B" x="15.24" y="-5.08" visible="pad" length="short" direction="pas" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3452,6 +3733,57 @@ SparkFun BigTime Watch Kit&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;
 <technologies>
 <technology name="">
 <attribute name="PROD_ID" value="SWCH-13065"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ENCODER-RGB-SWITCH" prefix="S" uservalue="yes">
+<description>&lt;h3&gt;Illuminated Rotary Encoder w/ RGB LED and select switch&lt;/h3&gt;
+&lt;p&gt;Encoders rotate similarly to potentiometers, but they’re different from potentiometers in that an encoder has full rotation without limits. They output gray code so that you can tell how much and in which direction the encoder has been turned.&lt;/p&gt;
+&lt;p&gt;This encoder includes an RGB LED and a push-down select switch.&lt;/p&gt;
+&lt;p&gt;Part #: Top Up &lt;a href="http://top-up.so-buy.com/front/bin/ptdetail.phtml?Part=EC12PLRGBSDVBF-D"&gt;EC12PLRGBSDVBF-D&lt;/a&gt;&lt;/p&gt;
+&lt;h4&gt;SparkFun Products&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/10982"&gt;Rotary Encoder - Illuminated (RGB)&lt;/a&gt; (COM-10982)&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="ENCODER_LED_3_CA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ENCODER_LED_3">
+<connects>
+<connect gate="G$1" pin="+" pad="5"/>
+<connect gate="G$1" pin="-B" pad="4"/>
+<connect gate="G$1" pin="-G" pad="2"/>
+<connect gate="G$1" pin="-R" pad="1"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="SW" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10859"/>
+<attribute name="SF_SKU" value="COM-10982"/>
+</technology>
+</technologies>
+</device>
+<device name="KIT" package="ENCODER_LED_3_KIT">
+<connects>
+<connect gate="G$1" pin="+" pad="5"/>
+<connect gate="G$1" pin="-B" pad="4"/>
+<connect gate="G$1" pin="-G" pad="2"/>
+<connect gate="G$1" pin="-R" pad="1"/>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="SW" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="RES-10859"/>
+<attribute name="SF_SKU" value="COM-10982"/>
 </technology>
 </technologies>
 </device>
@@ -7900,8 +8232,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C25" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="C26" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="C27" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
-<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value="UP"/>
-<part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-PTH-6.0MM" value="DOWN"/>
+<part name="S2" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="UP"/>
+<part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="DOWN"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
@@ -7929,6 +8261,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="R18" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="S4" library="SparkFun-Switches" deviceset="ENCODER-RGB-SWITCH" device=""/>
+<part name="S5" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="1"/>
+<part name="S6" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="2"/>
+<part name="S7" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="3"/>
+<part name="S8" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="4"/>
+<part name="S9" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="5"/>
+<part name="S10" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM"/>
+<part name="GND33" library="supply1" deviceset="GND" device=""/>
+<part name="GND34" library="supply1" deviceset="GND" device=""/>
+<part name="GND35" library="supply1" deviceset="GND" device=""/>
+<part name="GND36" library="supply1" deviceset="GND" device=""/>
+<part name="GND37" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8102,6 +8446,18 @@ Max discharge: 1.5C</text>
 <instance part="GND32" gate="1" x="116.84" y="71.12"/>
 <instance part="R18" gate="G$1" x="187.96" y="203.2" rot="R90"/>
 <instance part="+3V14" gate="G$1" x="187.96" y="213.36"/>
+<instance part="S4" gate="G$1" x="312.42" y="132.08"/>
+<instance part="S5" gate="G$1" x="322.58" y="104.14"/>
+<instance part="S6" gate="G$1" x="322.58" y="96.52"/>
+<instance part="S7" gate="G$1" x="322.58" y="88.9"/>
+<instance part="S8" gate="G$1" x="322.58" y="81.28"/>
+<instance part="S9" gate="G$1" x="322.58" y="73.66"/>
+<instance part="S10" gate="G$1" x="322.58" y="55.88"/>
+<instance part="GND33" gate="1" x="337.82" y="93.98"/>
+<instance part="GND34" gate="1" x="337.82" y="101.6"/>
+<instance part="GND35" gate="1" x="337.82" y="86.36"/>
+<instance part="GND36" gate="1" x="337.82" y="78.74"/>
+<instance part="GND37" gate="1" x="337.82" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -8572,6 +8928,31 @@ Max discharge: 1.5C</text>
 <wire x1="116.84" y1="76.2" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C30" gate="G$1" pin="2"/>
 <pinref part="GND32" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S5" gate="G$1" pin="2"/>
+<wire x1="327.66" y1="104.14" x2="337.82" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="GND34" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S6" gate="G$1" pin="2"/>
+<wire x1="327.66" y1="96.52" x2="337.82" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="GND33" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S7" gate="G$1" pin="2"/>
+<wire x1="327.66" y1="88.9" x2="337.82" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="GND35" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S8" gate="G$1" pin="2"/>
+<wire x1="327.66" y1="81.28" x2="337.82" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="GND36" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="S9" gate="G$1" pin="2"/>
+<wire x1="327.66" y1="73.66" x2="337.82" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND37" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
@@ -9080,81 +9461,106 @@ Max discharge: 1.5C</text>
 <wire x1="203.2" y1="165.1" x2="193.04" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$23" class="0">
+<net name="ROT-LEDR" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PB2(SS/OC1B)"/>
 <wire x1="251.46" y1="144.78" x2="266.7" y2="144.78" width="0.1524" layer="91"/>
 <label x="259.08" y="144.78" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$28" class="0">
+<net name="ROT-LEDB" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PD5(T1)"/>
 <wire x1="251.46" y1="160.02" x2="266.7" y2="160.02" width="0.1524" layer="91"/>
 <label x="259.08" y="160.02" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$29" class="0">
+<net name="ROT-SW" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PD4(XCK/T0)"/>
 <wire x1="251.46" y1="162.56" x2="266.7" y2="162.56" width="0.1524" layer="91"/>
 <label x="259.08" y="162.56" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$30" class="0">
+<net name="ROT-A" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PD3(INT1)"/>
 <wire x1="251.46" y1="165.1" x2="266.7" y2="165.1" width="0.1524" layer="91"/>
 <label x="259.08" y="165.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$32" class="0">
+<net name="TRIG4/TXO" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PD1(TXD)"/>
 <wire x1="251.46" y1="170.18" x2="266.7" y2="170.18" width="0.1524" layer="91"/>
 <label x="259.08" y="170.18" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="S8" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="81.28" x2="307.34" y2="81.28" width="0.1524" layer="91"/>
+<label x="304.8" y="81.28" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$33" class="0">
+<net name="TRIG5/RXI" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
 <wire x1="251.46" y1="172.72" x2="266.7" y2="172.72" width="0.1524" layer="91"/>
 <label x="259.08" y="172.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="S9" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="73.66" x2="307.34" y2="73.66" width="0.1524" layer="91"/>
+<label x="304.8" y="73.66" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$36" class="0">
+<net name="TRIG3" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PC5(ADC5/SCL)"/>
 <wire x1="251.46" y1="182.88" x2="266.7" y2="182.88" width="0.1524" layer="91"/>
 <label x="259.08" y="182.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="S7" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="88.9" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
+<label x="307.34" y="88.9" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$37" class="0">
+<net name="TRIG2" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PC4(ADC4/SDA)"/>
 <wire x1="251.46" y1="185.42" x2="266.7" y2="185.42" width="0.1524" layer="91"/>
 <label x="259.08" y="185.42" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="S6" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="96.52" x2="307.34" y2="96.52" width="0.1524" layer="91"/>
+<label x="307.34" y="96.52" size="1.778" layer="95"/>
+</segment>
 </net>
-<net name="N$38" class="0">
+<net name="ROT-B" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PC3(ADC3)"/>
 <wire x1="251.46" y1="187.96" x2="266.7" y2="187.96" width="0.1524" layer="91"/>
 <label x="259.08" y="187.96" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$40" class="0">
+<net name="ROT-LEDG" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PC1(ADC1)"/>
 <wire x1="251.46" y1="193.04" x2="266.7" y2="193.04" width="0.1524" layer="91"/>
 <label x="259.08" y="193.04" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$41" class="0">
+<net name="TRIG1" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PC0(ADC0)"/>
 <wire x1="251.46" y1="195.58" x2="266.7" y2="195.58" width="0.1524" layer="91"/>
 <label x="259.08" y="195.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="S5" gate="G$1" pin="1"/>
+<wire x1="317.5" y1="104.14" x2="307.34" y2="104.14" width="0.1524" layer="91"/>
+<label x="307.34" y="104.14" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$24" class="0">
