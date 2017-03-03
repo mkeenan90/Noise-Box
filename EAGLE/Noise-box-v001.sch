@@ -8989,12 +8989,12 @@ Max discharge: 1.5C</text>
 <instance part="GND36" gate="1" x="406.4" y="66.04"/>
 <instance part="GND37" gate="1" x="406.4" y="58.42"/>
 <instance part="GND38" gate="1" x="332.74" y="129.54"/>
-<instance part="GND39" gate="1" x="373.38" y="111.76"/>
+<instance part="GND39" gate="1" x="373.38" y="104.14"/>
 <instance part="+3V15" gate="G$1" x="375.92" y="165.1"/>
 <instance part="R19" gate="G$1" x="378.46" y="132.08" rot="R90"/>
 <instance part="R20" gate="G$1" x="383.54" y="137.16" rot="R90"/>
 <instance part="R21" gate="G$1" x="388.62" y="142.24" rot="R90"/>
-<instance part="R22" gate="G$1" x="373.38" y="124.46" rot="R90"/>
+<instance part="R22" gate="G$1" x="373.38" y="114.3" rot="R90"/>
 <instance part="C31" gate="G$1" x="317.5" y="132.08" rot="MR0"/>
 <instance part="C32" gate="G$1" x="322.58" y="132.08"/>
 <instance part="GND40" gate="1" x="322.58" y="124.46"/>
@@ -9517,7 +9517,7 @@ Max discharge: 1.5C</text>
 <segment>
 <pinref part="R22" gate="G$1" pin="1"/>
 <pinref part="GND39" gate="1" pin="GND"/>
-<wire x1="373.38" y1="119.38" x2="373.38" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="109.22" x2="373.38" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND40" gate="1" pin="GND"/>
@@ -9874,11 +9874,6 @@ Max discharge: 1.5C</text>
 <label x="5.08" y="43.18" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="C27" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="33.02" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
-<label x="5.08" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J5" gate="G$1" pin="SLEEVE"/>
 <wire x1="210.82" y1="256.54" x2="200.66" y2="256.54" width="0.1524" layer="91"/>
 <label x="175.26" y="256.54" size="1.778" layer="95"/>
@@ -9886,6 +9881,11 @@ Max discharge: 1.5C</text>
 <wire x1="200.66" y1="256.54" x2="175.26" y2="256.54" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="231.14" x2="200.66" y2="256.54" width="0.1524" layer="91"/>
 <junction x="200.66" y="256.54"/>
+</segment>
+<segment>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
+<label x="5.08" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RIGHT" class="0">
@@ -10088,6 +10088,13 @@ Max discharge: 1.5C</text>
 <wire x1="248.92" y1="38.1" x2="264.16" y2="38.1" width="0.1524" layer="91"/>
 <label x="256.54" y="38.1" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="S4" gate="G$1" pin="SW"/>
+<wire x1="370.84" y1="139.7" x2="373.38" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="373.38" y1="139.7" x2="373.38" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="R22" gate="G$1" pin="2"/>
+<label x="373.38" y="124.46" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="ROT-A" class="0">
 <segment>
@@ -10253,11 +10260,6 @@ Max discharge: 1.5C</text>
 </net>
 <net name="AMP-L" class="0">
 <segment>
-<pinref part="C26" gate="G$1" pin="1"/>
-<wire x1="20.32" y1="38.1" x2="10.16" y2="38.1" width="0.1524" layer="91"/>
-<label x="5.08" y="38.1" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="248.92" y1="256.54" x2="256.54" y2="256.54" width="0.1524" layer="91"/>
 <label x="251.46" y="256.54" size="1.778" layer="95"/>
@@ -10268,6 +10270,11 @@ Max discharge: 1.5C</text>
 <wire x1="208.28" y1="248.92" x2="208.28" y2="238.76" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="238.76" x2="223.52" y2="238.76" width="0.1524" layer="91"/>
 <label x="215.9" y="238.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="20.32" y1="33.02" x2="10.16" y2="33.02" width="0.1524" layer="91"/>
+<label x="5.08" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$43" class="0">
@@ -10377,14 +10384,6 @@ Max discharge: 1.5C</text>
 <pinref part="R14" gate="G$1" pin="2"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="193.04" y1="231.14" x2="193.04" y2="233.68" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$28" class="0">
-<segment>
-<pinref part="S4" gate="G$1" pin="SW"/>
-<wire x1="370.84" y1="139.7" x2="373.38" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="373.38" y1="139.7" x2="373.38" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="R22" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$29" class="0">
