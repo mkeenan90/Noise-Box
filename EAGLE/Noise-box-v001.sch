@@ -8650,7 +8650,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </classes>
 <parts>
 <part name="U1" library="SparkFun-IC-Microcontroller" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
-<part name="FRAME1" library="frames" deviceset="FRAME_B_L" device=""/>
+<part name="FRAME1" library="frames" deviceset="FRAME_B_L" device="" value="Noise Box v01"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="J1" library="SparkFun-Connectors" deviceset="AVR_SPI_PROG_3X2" device="2X3_LOCK"/>
@@ -8749,10 +8749,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S3" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="DOWN"/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
-<part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" value="LEFT"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="CONN_02" device="2.54MM_SCREWTERM" value="RIGHT"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="470OHM" device="-0603-1/10W-1%" value="470"/>
-<part name="BT2" library="MAK" deviceset="BATTERY" device="-1043P"/>
+<part name="BT2" library="MAK" deviceset="BATTERY" device="-1043P" value="18650"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Resistors" deviceset="100KOHM" device="-0603-1/10W-1%" value="100k"/>
@@ -8780,7 +8780,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S7" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="3"/>
 <part name="S8" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="4"/>
 <part name="S9" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM" value="5"/>
-<part name="S10" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-4.5MM"/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
@@ -8797,7 +8796,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C32" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" value="0.1uF"/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="J7" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_TARGET" device="SILK"/>
+<part name="J7" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_TARGET" device="SILK" value="FTDI"/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="R23" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="R25" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
@@ -8982,7 +8981,6 @@ Max discharge: 1.5C</text>
 <instance part="S7" gate="G$1" x="391.16" y="76.2"/>
 <instance part="S8" gate="G$1" x="391.16" y="68.58"/>
 <instance part="S9" gate="G$1" x="391.16" y="60.96"/>
-<instance part="S10" gate="G$1" x="391.16" y="43.18"/>
 <instance part="GND33" gate="1" x="406.4" y="81.28"/>
 <instance part="GND34" gate="1" x="406.4" y="88.9"/>
 <instance part="GND35" gate="1" x="406.4" y="73.66"/>
@@ -9819,6 +9817,7 @@ Max discharge: 1.5C</text>
 <junction x="281.94" y="231.14"/>
 <wire x1="297.18" y1="226.06" x2="297.18" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="231.14" x2="289.56" y2="231.14" width="0.1524" layer="91"/>
+<junction x="289.56" y="231.14"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -9835,6 +9834,7 @@ Max discharge: 1.5C</text>
 <junction x="281.94" y="215.9"/>
 <wire x1="297.18" y1="223.52" x2="297.18" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="215.9" x2="289.56" y2="215.9" width="0.1524" layer="91"/>
+<junction x="289.56" y="215.9"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -10439,6 +10439,14 @@ Max discharge: 1.5C</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,106.68,215.9,U3,VBAT,VBATT,,,"/>
+<approved hash="104,1,106.68,210.82,U3,VSS,GND,,,"/>
+<approved hash="104,1,30.48,241.3,BT2,-,GND,,,"/>
+<approved hash="104,1,30.48,251.46,BT2,+,VBATT,,,"/>
+<approved hash="113,1,46.99,254.5,S1,,,,,"/>
+<approved hash="113,1,355.6,148.569,S4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

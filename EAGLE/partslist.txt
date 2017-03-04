@@ -1,0 +1,102 @@
+Partlist
+
+Exported from Noise-box-v001.brd at 3/4/2017 12:36:09 AM
+
+EAGLE Version 6.6.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value                    Package                         Library                     Position (mm)         Orientation
+
+BT2      18650                    BATTERY_18650-1043P             MAK                         (38.1 27.94)          MR0
+C1       47uF                     EIA3528                         SparkFun-Capacitors         (69.723 35.687)       R270
+C2       470pF                    0603                            SparkFun-Capacitors         (65.024 36.576)       R90
+C3       10uF                     EIA3216                         SparkFun-Capacitors         (61.722 35.941)       R270
+C4       0.1uF                    0603                            SparkFun-Capacitors         (60.706 32.512)       R180
+C5       4.7uF                    0603                            SparkFun-Capacitors         (65.024 24.13)        R180
+C6       4.7uF                    0603                            SparkFun-Capacitors         (69.85 29.464)        R180
+C7       10uF                     EIA3216                         SparkFun-Capacitors         (24.892 39.878)       MR180
+C8       0.1uF                    0603                            SparkFun-Capacitors         (25.4 42.672)         MR0
+C9       22pF                     0603                            SparkFun-Capacitors         (35.052 31.242)       R90
+C10      22pF                     0603                            SparkFun-Capacitors         (32.258 27.686)       R0
+C11      0.1uF                    0603                            SparkFun-Capacitors         (24.384 32.004)       MR0
+C12      1.0uF                    0603                            SparkFun-Capacitors         (14.986 31.75)        R180
+C13      0.1uF                    0603                            SparkFun-Capacitors         (20.574 30.48)        MR0
+C14      0.1uF                    0603                            SparkFun-Capacitors         (21.082 25.908)       MR0
+C15      0.1uF                    0603                            SparkFun-Capacitors         (24.638 25.908)       MR180
+C16      1.0uF                    0603                            SparkFun-Capacitors         (35.179 14.224)       R90
+C17      1nF                      0603                            SparkFun-Capacitors         (22.987 9.779)        MR90
+C18      1nF                      0603                            SparkFun-Capacitors         (27.305 9.779)        MR90
+C19      1nF                      0603                            SparkFun-Capacitors         (29.845 9.779)        MR90
+C20      1nF                      0603                            SparkFun-Capacitors         (33.8582 9.779)       MR90
+C21      1.0uF                    0603                            SparkFun-Capacitors         (22.733 12.446)       R270
+C22      0.1uF                    0603                            SparkFun-Capacitors         (46.736 21.082)       R0
+C23      1.0uF                    0603                            SparkFun-Capacitors         (44.196 33.02)        MR180
+C24      0.1uF                    0603                            SparkFun-Capacitors         (16.256 23.241)       R0
+C25      0.1uF                    0603                            SparkFun-Capacitors         (16.256 17.018)       R0
+C26      0.1uF                    0603                            SparkFun-Capacitors         (16.256 19.177)       R0
+C27      0.1uF                    0603                            SparkFun-Capacitors         (16.256 21.336)       R0
+C28      10nF                     0603                            SparkFun-Capacitors         (10.668 12.954)       MR180
+C29      10nF                     0603                            SparkFun-Capacitors         (7.62 12.5222)        MR90
+C30      47nF                     0603                            SparkFun-Capacitors         (6.35 5.334)          MR90
+C31      0.1uF                    0603                            SparkFun-Capacitors         (30.7848 49.2252)     R270
+C32      0.1uF                    0603                            SparkFun-Capacitors         (30.8356 45.6946)     R90
+C33      0.1uF                    0603                            SparkFun-Capacitors         (48.514 43.942)       MR90
+D1       RED                      LED-0603                        SparkFun-LED                (60.706 28.448)       R0
+D2       120mA/40V/370mV          SOD-523                         SparkFun-DiscreteSemi       (65.278 29.21)        R0
+D4       Yellow                   LED-0603                        SparkFun-LED                (75.946 20.066)       R90
+J1       AVR_SPI_PROG_3X22X3_LOCK 2X3_LOCK                        SparkFun-Connectors         (56.642 10.668)       R90
+J2       LEFT                     1X02_2.54_SCREWTERM             SparkFun-Connectors         (26.416 6.858)        R180
+J3       RIGHT                    1X02_2.54_SCREWTERM             SparkFun-Connectors         (33.02 6.858)         R180
+J4       MICRO-SD_CARD_SOCKET     MICRO-SD-SOCKET                 SparkFun-Connectors         (38.1 19.304)         R180
+J5       HEADPHONE                AUDIO-JACK-3.5MM-SMD            SparkFun-Connectors         (6.858 5.334)         R90
+J6       POWER_JACK               POWER_JACK_PTH                  SparkFun-Connectors         (80.772 9.398)        R90
+J7       FTDI                     6_PIN_SERIAL_TARGET_SIDE_W_SILK SparkFun-Connectors         (53.086 49.53)        R0
+JP1      SJ1                      SMT-JUMPER_2_NO_SILK            SparkFun-Jumpers            (7.62 24.384)         R180
+JP2      SJ2                      SMT-JUMPER_2_NO_SILK            SparkFun-Jumpers            (12.4206 24.003)      R270
+L1                                0805                            SparkFun-Coils              (32.258 12.319)       R270
+L2                                0805                            SparkFun-Coils              (29.845 12.319)       R270
+L3                                0805                            SparkFun-Coils              (27.178 12.319)       R270
+L4                                0805                            SparkFun-Coils              (24.892 12.319)       R270
+R1       330                      0603                            SparkFun-Resistors          (60.706 30.48)        R180
+R2       470                      0603                            SparkFun-Resistors          (73.152 18.542)       R0
+R3       2.0k                     0603                            SparkFun-Resistors          (73.152 21.336)       R180
+R4       DNP                      0603                            SparkFun-Resistors          (73.152 24.003)       R180
+R5       100k                     0603                            SparkFun-Resistors          (28.194 27.686)       R180
+R6       1M                       0603                            SparkFun-Resistors          (29.464 31.496)       R90
+R7       100k                     0603                            SparkFun-Resistors          (25.146 37.846)       MR180
+R8       100k                     0603                            SparkFun-Resistors          (21.336 25.908)       R0
+R9       100k                     0603                            SparkFun-Resistors          (28.702 36.576)       R0
+R10      100k                     0603                            SparkFun-Resistors          (14.732 35.814)       R0
+R11      100k                     0603                            SparkFun-Resistors          (14.732 37.846)       R0
+R12      100k                     0603                            SparkFun-Resistors          (14.732 39.878)       R0
+R13      10                       0603                            SparkFun-Resistors          (8.382 5.334)         MR90
+R14      10                       0603                            SparkFun-Resistors          (5.588 12.4968)       MR90
+R15      10                       0603                            SparkFun-Resistors          (10.668 14.732)       MR180
+R16      10                       0603                            SparkFun-Resistors          (10.668 16.51)        MR0
+R17      10                       0603                            SparkFun-Resistors          (3.556 12.7)          MR270
+R18      10k                      0603                            SparkFun-Resistors          (54.356 18.542)       R180
+R19      330                      0603                            SparkFun-Resistors          (16.51 50.292)        MR0
+R20      330                      0603                            SparkFun-Resistors          (16.51 45.974)        MR0
+R21      330                      0603                            SparkFun-Resistors          (16.51 43.942)        MR0
+R22      1k                       0603                            SparkFun-Resistors          (16.51 48.26)         MR0
+R23      1k                       0603                            SparkFun-Resistors          (44.704 43.942)       MR270
+R25      10k                      0603                            SparkFun-Resistors          (50.673 43.942)       MR90
+R26      2.0k                     0603                            SparkFun-Resistors          (46.482 43.942)       MR90
+S1                                SWITCH_SPST_SMD_A               SparkFun-Switches           (75.184 34.036)       R270
+S2       UP                       TACTILE_SWITCH_SMD_4.5MM        SparkFun-Switches           (16.764 6.604)        R180
+S3       DOWN                     TACTILE_SWITCH_SMD_4.5MM        SparkFun-Switches           (16.764 13.208)       R180
+S4                                ENCODER_LED_3                   SparkFun-Switches           (20.32 47.498)        R90
+S5       1                        TACTILE_SWITCH_SMD_4.5MM        SparkFun-Switches           (70.612 43.434)       R0
+S6       2                        TACTILE_SWITCH_SMD_4.5MM        SparkFun-Switches           (65.024 43.434)       R0
+S7       3                        TACTILE_SWITCH_SMD_4.5MM        SparkFun-Switches           (59.182 43.434)       R0
+S8       4                        TACTILE_SWITCH_SMD_4.5MM        SparkFun-Switches           (47.244 43.434)       R0
+S9       5                        TACTILE_SWITCH_SMD_4.5MM        SparkFun-Switches           (52.832 43.434)       R0
+U$1      1.8V/100mA               SC70                            SparkFun-IC-Power           (28.575 40.894)       R90
+U$3      VS1063SMD                LQFP-48                         SparkFun-IC-Conversion      (23.114 32.004)       R0
+U$4      PAM84707                 SO16                            RJC                         (28.448 18.034)       R180
+U1       ATMEGA328P_TQFP          TQFP32-08                       SparkFun-IC-Microcontroller (44.196 29.972)       R270
+U2       MIC5219 3.3V             SOT23-5                         SparkFun-IC-Power           (65.278 31.75)        R90
+U3       MCP73831                 SOT23-5                         SparkFun-IC-Power           (69.596 24.13)        R180
+Y1       12.288MHz                CRYSTAL-SMD-5X3.2-4PAD          SparkFun-Clocks             (32.258 31.75)        R90
+Y2       8MHz                     RESONATOR-SMD-3.2X1.3           SparkFun-Clocks             (41.783 38.354)       R180
